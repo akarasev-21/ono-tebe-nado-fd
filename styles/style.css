@@ -1,1 +1,165 @@
-/* место для вашего кода */
+.header-footer-text {
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24.3px;
+}
+
+.title {
+  justify-content: space-between;
+  font-family: "Railway", sans-serif;
+  font-size: 100px;
+  font-style: 700;
+  letter-spacing: 30px;
+  line-height: 130px;
+}
+
+.subtitle {
+  font-family: "Railway", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-left: 40px;
+}
+
+.content-text {
+
+}
+
+.description-text {
+  align-self: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+  font-size: 22px;
+  font-style: normal;
+  line-height: 28px;
+  text-transform: uppercase;
+  word-spacing: 18px;
+}
+
+.link-text {
+  color: black;
+  text-decoration: none;
+}
+
+.text-accent {
+  text-decoration: underline;
+}
+
+.button-text {
+  font-family: "Railway", sans-serif;
+  font-weight: 500;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  grid-template-areas: "nav logo address";
+  align-items: center;
+  padding: 92px 50px 96px 50px;
+}
+
+.header__nav {
+  grid-area: nav;
+}
+
+.nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  list-style-type: circle;
+}
+
+.nav__list li:first-child {
+  list-style: none;
+}
+
+.light-logo{
+  grid-area: logo;
+  width: 135px;
+  height: 105px;
+}
+
+.header__address {
+  grid-area: address;
+  justify-self: end;
+  max-width: 240px;
+}
+
+.address-paragraph {
+  display: inline;
+}
+
+.cover {
+  padding: 165px 50px 50px;
+  background: url(/images/cover.jpg);
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 106px;
+}
+
+.bet-button {
+  background: none;
+  color: white;
+  box-shadow: none;
+  height: 51px;
+  width: 256px;
+  border: 2px white solid;
+  font-size:  22px;
+  text-transform: uppercase;
+}
+
+.left-text {
+  display: block;
+  justify-self:flex-start;
+  max-width: 286px;
+}
+
+.center-text {
+  display: block;
+  justify-self: center;
+  align-self: center;
+  max-width: 339px;
+}
+
+.right-text {
+  display: block;
+  justify-self: flex-end;
+  align-self: self-end;
+  max-width: 387px;
+}
+
+.lots {
+  padding: 180px 24px 120px;
+}
+
+.lots__list {
+  display: flex;
+}
+
+.lot {
+  display: block;
+  height: ;
+  width: ;
+}
+
+.about {
+  padding: 35px 24px 180px;
+}
+
+.footer {
+  padding: 0 50px 82px;
+}
+
+.light-text {
+  color: white;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
