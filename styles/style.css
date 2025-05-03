@@ -94,7 +94,7 @@
   list-style: none;
 }
 
-.dark-logo{
+.dark-logo {
   grid-area: logo;
   width: 135px;
   height: 105px;
@@ -219,7 +219,7 @@
   padding: 35px 24px 180px;
 }
 
-.circle{
+.circle {
   position: absolute;
   left: 71px;
   width: 240px;
